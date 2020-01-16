@@ -1,10 +1,10 @@
 """An example script to use with flake8."""
 
 
-def hello():
+def hello(msg: str) -> None:
     """Greeting humans."""
-    print('Hello, world!')
+    print(msg)
 
 
 if __name__ == '__main__':
-    hello()
+    hello('Hello, world!')
