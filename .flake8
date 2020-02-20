@@ -1,5 +1,5 @@
 [flake8]
-exclude = .git,__pycache__,*venv,tests/**/*.py #FIXME: remove tests from config
+exclude = .git,__pycache__,*venv,tests/**/*.py,project/settings.py,search/migrations/ #FIXME: remove tests from config
 ignore = D203
 import-order-style = pep8
 inline-quotes = '
